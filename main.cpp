@@ -12,10 +12,10 @@ else if(a[mid]<key){
   l=mid+1;
 }
 else{
-  if(mid==0 || a[mid-1]!=key)
+  if(mid==0 || a[mid+1]!=key)
      return mid;
   else
-  h=mid-1;
+  l=mid+1;
 }
 
 }
